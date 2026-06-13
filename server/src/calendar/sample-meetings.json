@@ -1,0 +1,293 @@
+[
+  {
+    "id": "mock-001",
+    "title": "Phoenix Mobile — Daily Standup",
+    "description": "Daily sync for the Phoenix mobile app rebuild. Sprint board: jira/PHX.",
+    "location": "Zoom",
+    "daysAgo": 1,
+    "startHour": 9,
+    "durationMins": 30,
+    "recurrence": "RRULE:FREQ=DAILY",
+    "attendees": [
+      { "email": "ravi@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "neha@acme.com", "responseStatus": "accepted" },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" },
+      { "email": "meera@acme.com", "responseStatus": "tentative" }
+    ],
+    "trueProject": "Phoenix Mobile App"
+  },
+  {
+    "id": "mock-002",
+    "title": "Phoenix — Design Review",
+    "description": "Reviewing new onboarding screens and the checkout flow mockups for Phoenix.",
+    "location": "Design War Room",
+    "daysAgo": 2,
+    "startHour": 14,
+    "durationMins": 60,
+    "recurrence": null,
+    "attendees": [
+      { "email": "meera@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "ravi@acme.com", "responseStatus": "accepted" },
+      { "email": "sara@acme.com", "responseStatus": "accepted" },
+      { "email": "design-room@resource.acme.com", "responseStatus": "accepted", "resource": true }
+    ],
+    "trueProject": "Phoenix Mobile App"
+  },
+  {
+    "id": "mock-003",
+    "title": "Atlas Data Platform — Architecture Sync",
+    "description": "Schema design for the new analytics warehouse. Kafka vs Kinesis decision.",
+    "location": "Meet",
+    "daysAgo": 3,
+    "startHour": 11,
+    "durationMins": 90,
+    "recurrence": "RRULE:FREQ=WEEKLY",
+    "attendees": [
+      { "email": "deepak@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" },
+      { "email": "priya@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Atlas Data Platform"
+  },
+  {
+    "id": "mock-004",
+    "title": "Atlas — Data Pipeline Bugbash",
+    "description": "Triaging ingestion failures in the Atlas ETL jobs before the release.",
+    "location": "Zoom",
+    "daysAgo": 4,
+    "startHour": 15,
+    "durationMins": 120,
+    "recurrence": null,
+    "attendees": [
+      { "email": "deepak@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "priya@acme.com", "responseStatus": "accepted" },
+      { "email": "arjun@acme.com", "responseStatus": "declined" }
+    ],
+    "trueProject": "Atlas Data Platform"
+  },
+  {
+    "id": "mock-005",
+    "title": "Orion Launch — Campaign Planning",
+    "description": "Q3 go-to-market campaign for Orion. Channels, budget split, creative timeline.",
+    "location": "Marketing Hub",
+    "daysAgo": 2,
+    "startHour": 10,
+    "durationMins": 60,
+    "recurrence": "RRULE:FREQ=WEEKLY",
+    "attendees": [
+      { "email": "kavya@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "rohit@acme.com", "responseStatus": "accepted" },
+      { "email": "sara@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Orion Marketing Launch"
+  },
+  {
+    "id": "mock-006",
+    "title": "Orion — Agency Creative Sync",
+    "description": "Review creative drafts with the external agency for the Orion launch.",
+    "location": "Zoom",
+    "daysAgo": 5,
+    "startHour": 16,
+    "durationMins": 45,
+    "recurrence": null,
+    "attendees": [
+      { "email": "kavya@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "rohit@acme.com", "responseStatus": "accepted" },
+      { "email": "jordan@brightside-agency.com", "responseStatus": "accepted" },
+      { "email": "taylor@brightside-agency.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Orion Marketing Launch"
+  },
+  {
+    "id": "mock-007",
+    "title": "Weekly All-Hands",
+    "description": "Company-wide updates, wins, and Q&A with leadership.",
+    "location": "Auditorium",
+    "daysAgo": 6,
+    "startHour": 17,
+    "durationMins": 60,
+    "recurrence": "RRULE:FREQ=WEEKLY",
+    "attendees": [
+      { "email": "anita@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "ravi@acme.com", "responseStatus": "accepted" },
+      { "email": "deepak@acme.com", "responseStatus": "accepted" },
+      { "email": "kavya@acme.com", "responseStatus": "accepted" },
+      { "email": "meera@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Internal Operations"
+  },
+  {
+    "id": "mock-008",
+    "title": "1:1 Ravi / Anita",
+    "description": "Weekly 1:1.",
+    "location": "Meet",
+    "daysAgo": 3,
+    "startHour": 13,
+    "durationMins": 30,
+    "recurrence": "RRULE:FREQ=WEEKLY",
+    "attendees": [
+      { "email": "anita@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "ravi@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Internal Operations"
+  },
+  {
+    "id": "mock-009",
+    "title": "Sync",
+    "description": "",
+    "location": "",
+    "daysAgo": 7,
+    "startHour": 12,
+    "durationMins": 30,
+    "recurrence": null,
+    "attendees": [
+      { "email": "arjun@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "priya@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": null
+  },
+  {
+    "id": "mock-010",
+    "title": "Phoenix — Sprint Planning",
+    "description": "Planning sprint 14 for Phoenix mobile. Estimating onboarding + payments epics.",
+    "location": "Zoom",
+    "daysAgo": 8,
+    "startHour": 10,
+    "durationMins": 90,
+    "recurrence": "RRULE:FREQ=WEEKLY",
+    "attendees": [
+      { "email": "ravi@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "neha@acme.com", "responseStatus": "accepted" },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" },
+      { "email": "meera@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Phoenix Mobile App"
+  },
+  {
+    "id": "mock-011",
+    "title": "Atlas x Phoenix — Data Handoff",
+    "description": "Aligning Atlas event schema with Phoenix mobile analytics needs. Cross-team.",
+    "location": "Meet",
+    "daysAgo": 9,
+    "startHour": 11,
+    "durationMins": 60,
+    "recurrence": null,
+    "attendees": [
+      { "email": "deepak@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "ravi@acme.com", "responseStatus": "accepted" },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Atlas Data Platform"
+  },
+  {
+    "id": "mock-012",
+    "title": "Client Demo — Northwind",
+    "description": "Demoing the Phoenix mobile beta to Northwind stakeholders.",
+    "location": "Zoom",
+    "daysAgo": 10,
+    "startHour": 15,
+    "durationMins": 60,
+    "recurrence": null,
+    "attendees": [
+      { "email": "ravi@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "kavya@acme.com", "responseStatus": "accepted" },
+      { "email": "sam@northwind.com", "responseStatus": "accepted" },
+      { "email": "lee@northwind.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Phoenix Mobile App"
+  },
+  {
+    "id": "mock-013",
+    "title": "Orion — Metrics Review",
+    "description": "Reviewing early funnel metrics from the Orion campaign soft launch.",
+    "location": "Marketing Hub",
+    "daysAgo": 11,
+    "startHour": 14,
+    "durationMins": 45,
+    "recurrence": null,
+    "attendees": [
+      { "email": "kavya@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "priya@acme.com", "responseStatus": "accepted" },
+      { "email": "rohit@acme.com", "responseStatus": "tentative" }
+    ],
+    "trueProject": "Orion Marketing Launch"
+  },
+  {
+    "id": "mock-014",
+    "title": "Quick chat",
+    "description": "",
+    "location": "",
+    "daysAgo": 12,
+    "startHour": 16,
+    "durationMins": 15,
+    "recurrence": null,
+    "attendees": [
+      { "email": "meera@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "sara@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": null
+  },
+  {
+    "id": "mock-015",
+    "title": "Atlas — Stakeholder Update",
+    "description": "Monthly update on Atlas data platform progress to leadership.",
+    "location": "Boardroom",
+    "daysAgo": 13,
+    "startHour": 9,
+    "durationMins": 60,
+    "recurrence": "RRULE:FREQ=MONTHLY",
+    "attendees": [
+      { "email": "deepak@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "anita@acme.com", "responseStatus": "accepted" },
+      { "email": "priya@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Atlas Data Platform"
+  },
+  {
+    "id": "mock-016",
+    "title": "Phoenix — Retro",
+    "description": "Sprint 13 retrospective for the Phoenix mobile team.",
+    "location": "Zoom",
+    "daysAgo": 14,
+    "startHour": 17,
+    "durationMins": 45,
+    "recurrence": null,
+    "attendees": [
+      { "email": "ravi@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "neha@acme.com", "responseStatus": "accepted" },
+      { "email": "meera@acme.com", "responseStatus": "declined" },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Phoenix Mobile App"
+  },
+  {
+    "id": "mock-017",
+    "title": "Interview — Backend Candidate",
+    "description": "Technical interview loop for a senior backend role.",
+    "location": "Meet",
+    "daysAgo": 5,
+    "startHour": 12,
+    "durationMins": 60,
+    "recurrence": null,
+    "attendees": [
+      { "email": "deepak@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "arjun@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Internal Operations"
+  },
+  {
+    "id": "mock-018",
+    "title": "Orion — Budget Approval",
+    "description": "Finance sign-off on incremental Orion paid-media spend.",
+    "location": "Boardroom",
+    "daysAgo": 7,
+    "startHour": 11,
+    "durationMins": 30,
+    "recurrence": null,
+    "attendees": [
+      { "email": "kavya@acme.com", "responseStatus": "accepted", "organizer": true },
+      { "email": "anita@acme.com", "responseStatus": "accepted" }
+    ],
+    "trueProject": "Orion Marketing Launch"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "hr-cost-engine-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HR Cost Intelligence Engine — backend (Express + MongoDB + Google Calendar + Replicate)",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^144.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.6.0",
+    "replicate": "^1.0.1"
+  }
+}
